@@ -112,6 +112,8 @@ include("devtools.jl")
 include("callbacks.jl")
 export ManifoldUpdate
 
+include("ek0.jl")
+
 # Do as they do here:
 # https://github.com/SciML/OrdinaryDiffEq.jl/blob/v5.61.1/src/OrdinaryDiffEq.jl#L175-L193
 let
