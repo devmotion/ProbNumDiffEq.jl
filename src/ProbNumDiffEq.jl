@@ -8,6 +8,7 @@ import DiffEqBase: check_error!, AbstractODEFunction
 using OrdinaryDiffEq
 using DiffEqDevTools
 using SpecialMatrices, ToeplitzMatrices
+using FastGaussQuadrature
 using FastBroadcast
 
 # Current working solution to depending on functions that moved from DiffEqBase to SciMLBase
